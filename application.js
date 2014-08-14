@@ -24,7 +24,7 @@ $(document).ready(function(){
 		var user = getCookie('warning');
 		if (user != '') {
 			$('#cookieWarning').css('display', 'none');
-			/*alert('I the monster have ' + user + ' the cookie!');*/
+			alert('I the monster have ' + user + ' the cookie!');
 		} else {
 			$('#cookieWarning').css('display', 'block');
 			$('#accept').click(function(){
